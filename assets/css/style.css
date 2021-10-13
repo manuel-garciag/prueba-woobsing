@@ -1,0 +1,109 @@
+ * {
+     /* overflow-x: hidden; */
+     padding: auto;
+ }
+
+ .bg_blue {
+     background-color: #0071B1;
+ }
+
+ .bg_grey {
+     background-color: #DBDBDB;
+ }
+
+ .bg_orange {
+     background-color: #E65A24;
+ }
+
+ .bg_blue_trans {
+     margin-top: 20%;
+     background-color: rgba(0, 113, 177, .8);
+ }
+
+ .bg_blue_trans .col {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
+ .text_orange {
+     color: #E65A24;
+ }
+
+ .text_blue {
+     color: #0071B1
+ }
+
+ .img_banner {
+     background-image: url('../img/cursos_virtuales.jpg');
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-size: cover;
+ }
+
+ .img_banner:before {
+     content: '';
+     position: absolute;
+     top: 0;
+     bottom: 0;
+     left: 0;
+     right: 0;
+     background-color: rgba(0, 0, 0, 0.6);
+ }
+
+ #form_register {
+     width: 80%;
+     margin-left: 10%;
+ }
+
+ #form_register input {
+     width: 80%;
+     margin-top: 2%;
+ }
+
+ #form_register button {
+     background-color: #E65A24;
+     color: white;
+     border: none;
+     margin-top: 2%;
+     width: 80%;
+ }
+
+ #spacefree {
+     height: 20vh;
+     background-color: #DBDBDB;
+     align-items: center;
+ }
+
+ #hr_img {
+     height: 15px;
+     background-image: url('../img/1x/Recurso8.png');
+ }
+
+ .card_info strong {
+     color: #0071B1;
+ }
+
+ .card_info {
+     width: 85%;
+     margin-left: 15px;
+     ;
+     border: 2px solid;
+     font-size: 12px;
+     padding: 4px;
+ }
+
+ #cards .col {
+     padding: 0;
+ }
+
+ #cards {
+     margin-left: 10px;
+ }
+
+ .menu img {
+     width: 75px;
+ }
+
+ .icon_redes {
+     width: 20px !important;
+ }
